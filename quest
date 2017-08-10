@@ -1,0 +1,34 @@
+* [ ] 1) Create a dynamic array of integers. Take input from user , sort the array and display the output.
+
+* [ ] 2) Write a function that takes two integer arrays as input, and returns an array of integers from both arrays in sorted order, excluding duplicate numbers.
+Assume that the input arrays are sorted.
+
+eg., array1 : 10,12,13,14,15,16
+array2 : 9,12,15,19,20
+
+output array3 : 19,10,12,13,14,15,16,19,20
+
+* [ ] 3) Implement your own realloc function using malloc and free .
+
+* [ ] 4 )Create a dynamic array of students structure. Fill data from user input. Search for a particular student using ID and print his details back.
+
+* [ ] 5 ) Write a function, that takes two strings as input and concatenates only the first n characters from first string and first m characters from second string and makes a new string.
+
+eg., input str1 = "kernel masters", str2 = "raayan systems", n = 3, m = 5
+
+output : kerraaya
+
+
+* [ ] 6 )EmpID, name, Date of Birth, Date of Joining, Department name, Salary, IDProofType, IDProofNo. 
+The EMPLOYEE CAN provide any one of the following number as ID proof:Aadhar card, PAN, Voter Id, Passport etc. So only one field should be enough to store this data. Do this using union.
+
+
+* [ ] 7 ) Device driver implementation using Dynamic Memory Allocation.
+char buffer of size 65535 // need to be created as a dynamic string in init.
+write 3 functions 
+- init() - creates dynamic memory for 65535 characters and returns character pointer. store the character pointer in a global variable.
+- int write(char *p,int n) - writes n number of characters from string p, into buffer. Return number of bytes written,incase of success. 
+- int read(char *p,int n) - reads n number of characters from buffer and puts in character array p (char array sent as argument to read function). Return number of bytes read, incase of success.
+- exit() - free the dynamic memory before closing the program (in both success or failure case).
+
+
